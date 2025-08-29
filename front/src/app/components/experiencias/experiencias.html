@@ -1,0 +1,35 @@
+<nav>
+  <button routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+    Página Inicial
+  </button>
+
+  <button routerLink="/projetos" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+    Projetos
+  </button>
+
+  <button routerLink="/experiencias" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+    Experiências
+  </button>
+
+  <button routerLink="/contato" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+    Contato
+  </button>
+</nav>
+
+<!--Seção das Experiências-->
+<div class="experiencias">
+  <h2>Últimas Experiências</h2>
+  @for(item of arrayExperiencias(); track item;){
+    <details>
+      <summary>
+        <p>
+          <strong>{{ item.summary.strong}}</strong>
+          {{ item.summary.p }}
+        </p>
+      </summary>
+      <article [innerHTML]="item.text"></article>
+    </details>
+  }
+</div>
+
+<app-footer></app-footer>

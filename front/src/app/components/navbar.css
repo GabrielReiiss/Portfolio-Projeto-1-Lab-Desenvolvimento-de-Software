@@ -1,0 +1,29 @@
+/* navbar.css → estilos globais para o menu */
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;              /* Espaço uniforme entre botões */
+  padding: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.3s ease;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+nav button:hover,
+nav .active {
+  color: #4db8ff;
+  border-bottom: 2px solid #4db8ff;
+}

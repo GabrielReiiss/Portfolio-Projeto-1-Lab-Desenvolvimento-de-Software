@@ -1,0 +1,142 @@
+.experiencias {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experiencias h2 {
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.experiencias summary p {
+    display: flex;
+    flex-direction: column;
+}
+
+.experiencias summary p strong {
+    display: block;
+}
+
+.experiencias h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: white;
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+/* Cards de experiência */
+.experiencias details {
+    border-radius: 12px;
+    width: 100%;
+    max-width: 59%;
+    margin-top: 15px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.experiencias details:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* Cabeçalho */
+.experiencias summary {
+    cursor: pointer;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #02085c;
+    color: white;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.experiencias summary p, strong, p, article {
+    background: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.experiencias details[open] summary {
+    background: #1b01b3;
+}
+
+/* Texto interno */
+.experiencias article {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #2e2e2e;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: #121212;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 18px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+nav button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  
+  font-size: 16px;
+  transition: 0.3s ease;
+  padding-bottom: 5px;
+}
+nav button:hover,
+nav .active {
+  color: #4db8ff;
+  border-bottom: 2px solid #4db8ff;
+}
+
+button {
+  display: block;
+  margin: 25px auto 0;
+  background: #4db8ff;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background: #36a3e0;
+  color: white;
+}
+
+/* Animação de abertura */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}

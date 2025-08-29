@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "PortfolioAPI.Controllers.ContatoController",
+    "Method": "EnviarEmail",
+    "RelativePath": "api/Contato",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "infosUser",
+        "Type": "PortfolioAPI.Models.InformacoesUsuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
