@@ -15,24 +15,17 @@ export class Experiencias implements AfterViewInit {
   public arrayExperiencias = signal<IExperiencias[]>([
     {
       summary: {
-        strong: 'COLOQUEI AQUI O CARGO',
-        p: 'COLOQUE AQUI A EMPRESA | DATA',
+        strong: 'Assistente de Serviços',
+        p: 'Sisloc Softwares |  fev de 2025 - o momento · 7 meses',
       },
-      text: "COLOQUE AQUI UMA BREVE DESCRIÇÃO DA SUA EXPERIÊNCIA",
+      text: "Atuo como Assistente de Serviços na Sisloc Softwares, onde sou responsável por realizar configurações dentro do sistema, elaborar documentos utilizando HTML, CSS e JavaScript, além de desenvolver funções em Java para atender cenários específicos. Também colaboro no atendimento ao cliente, oferecendo suporte técnico e auxiliando na resolução de demandas.<br><br>No meu dia a dia, tenho a oportunidade de aprimorar continuamente minhas habilidades em programação e suporte técnico, contribuindo para a melhoria e eficiência dos processos internos da empresa.",
     },
     {
       summary: {
-        strong: 'COLOQUEI AQUI O CARGO',
-        p: 'COLOQUE AQUI A EMPRESA | DATA',
+        strong: 'Estagiário de Serviços',
+        p: 'Sisloc Softwares |  mar de 2024 - fev de 2025 · 1 ano',
       },
-      text: "COLOQUE AQUI UMA BREVE DESCRIÇÃO DA SUA EXPERIÊNCIA",
-    },
-    {
-      summary: {
-        strong: 'COLOQUEI AQUI O CARGO',
-        p: 'COLOQUE AQUI A EMPRESA | DATA',
-      },
-      text: "COLOQUE AQUI UMA BREVE DESCRIÇÃO DA SUA EXPERIÊNCIA",
+      text: "Atuei como Estagiário de Serviços na Sisloc Softwares, onde fui responsável por auxiliar na implementação de soluções utilizando HTML, CSS e JavaScript, além de desenvolver funções simples em Java para atender necessidades específicas. Também prestei suporte no atendimento ao cliente, colaborando na resolução de demandas e garantindo uma boa experiência de uso do sistema.<br><br>Durante esse período, pude aprimorar minhas habilidades em programação e suporte técnico, contribuindo para a otimização e melhoria contínua dos processos internos da empresa.",
     }
   ]);
 
