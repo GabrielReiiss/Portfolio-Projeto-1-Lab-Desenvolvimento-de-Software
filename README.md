@@ -63,8 +63,6 @@ https://www.figma.com/design/ssPbqhfPPkHvpcmmEfnnLj/Portfolio-Projeto-1-Lab-Dese
 
 ## Como Executar o Front-end da aplicação ##
 
-# Projeto Angular – Guia de Configuração e Execução (Windows/VS Code)
-
 Este passo a passo explica como **clonar, instalar e rodar** o projeto Angular no Windows usando o **VS Code** e o **Angular CLI**. Inclui também uma seção de **solução de problemas** com os erros mais comuns.
 
 ---
