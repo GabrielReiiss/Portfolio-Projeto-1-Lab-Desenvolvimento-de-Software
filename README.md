@@ -150,12 +150,6 @@ ng build --configuration production
 ng test
 ```
 
-* **Lint (se configurado):**
-
-```powershell
-ng lint
-```
-
 ---
 
 ## 🧭 Estrutura esperada do projeto (resumo)
@@ -260,27 +254,6 @@ npx ng serve
 ```
 
 ---
-
-## 🧩 Extensões úteis no VS Code
-
-* **Angular Language Service** – autocompletar e dicas do Angular
-* **ESLint** (se configurado no projeto)
-
----
-
-## 📄 Licença
-
-Defina aqui a licença do projeto (por exemplo, MIT) ou remova esta seção.
-
----
-
-## 🤝 Contribuindo
-
-1. Faça um fork do repositório
-2. Crie uma branch: `git checkout -b feat/minha-feature`
-3. Commit: `git commit -m "feat: minha feature"`
-4. Push: `git push origin feat/minha-feature`
-5. Abra um Pull Request
 
 ## Como Executar o Back-end da aplicação ##
 
