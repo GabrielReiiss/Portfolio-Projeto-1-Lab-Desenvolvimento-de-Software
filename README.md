@@ -2,7 +2,7 @@
 
 ## ⚒️ Link da Aplicação ##
 
-https://portfolio-projeto-1-lab-desenvolvim-sable.vercel.app/projetos
+https://portfolio-projeto-1-lab-desenvolvim-sable.vercel.app/
 
 ## 📖 Descrição do Projeto ##
 
